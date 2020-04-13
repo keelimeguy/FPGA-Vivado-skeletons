@@ -58,6 +58,8 @@ src/ip/*/**
 # ignore everything in project folder
 proj/*
 # except this file and project generators
+!proj/program_board.tcl
+!proj/run_project.tcl
 !proj/create_project.tcl
 !proj/cleanup.cmd
 !proj/cleanup.sh
